@@ -40,8 +40,8 @@ layers:
   - COLON
   - {t: LEFT PARENTHESIS, h: LEFT WIN}
   - {t: RIGHT PARENTHESIS, h: LALT}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - {t: SPACE, h: LEFT CONTROL}
+  - {t: LANG ZENKAKUHANKAKU, h: Num}
   - {t: BACKSPACE, h: Num}
   - {t: ENTER, h: Fnc}
   - LEFT
@@ -97,10 +97,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
+  - ENTER
+  - ENTER
+  - ENTER
   - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
-  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,7 +156,7 @@ layers:
   - ENTER
   - ENTER
   - {t: ENTER, type: held}
-  - ENTER
+  - DEL
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
