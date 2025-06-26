@@ -7,43 +7,43 @@ layers:
   - R
   - T
   - A
-  - Y
+  - A
+  - T
   - U
   - I
   - O
   - P
-  - BKSP
   - {t: A, h: BT}
   - S
   - D
   - F
   - G
   - A
+  - A
   - H
   - J
   - K
   - L
-  - SEMI
-  - SQT
+  - MINUS
   - {t: Z, h: LSHFT}
   - X
   - C
   - V
   - B
   - A
+  - A
   - N
   - M
   - COMMA
-  - DOT
-  - UP
+  - PERIOD
   - FSLH
   - COLON
   - {t: LEFT PARENTHESIS, h: LEFT WIN}
   - {t: RIGHT PARENTHESIS, h: LALT}
   - {t: SPACE, h: Fnc}
   - {t: SPACE, h: Num}
-  - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
+  - {t: BACKSPACE, h: Num}
+  - {t: ENTER, h: Fnc}
   - LEFT
   - DOWN
   - RIGHT
@@ -342,3 +342,6 @@ layers:
   - HOME
   - PG DN
   - ENTER
+combos:
+- p: [13, 14]
+  k: TAB
