@@ -30,13 +30,13 @@ layers:
   - C
   - V
   - B
-  - A
-  - A
+  - Ctl+PG UP
+  - Ctl+PAGE DOWN
   - N
   - M
   - COMMA
   - PERIOD
-  - FSLH
+  - {t: SLASH, h: RIGHT SHIFT}
   - COLON
   - {t: LEFT PARENTHESIS, h: LEFT WIN}
   - {t: RIGHT PARENTHESIS, h: LALT}
@@ -44,9 +44,9 @@ layers:
   - {t: LANG ZENKAKUHANKAKU, h: Num}
   - {t: BACKSPACE, h: Num}
   - {t: ENTER, h: Fnc}
-  - LEFT
-  - DOWN
-  - RIGHT
+  - A
+  - A
+  - A
   - Gui+RIGHT
   - Gui+DOWN ARROW
   - Gui+UP
