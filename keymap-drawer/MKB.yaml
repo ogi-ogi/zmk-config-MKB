@@ -37,9 +37,9 @@ layers:
   - DOT
   - UP
   - FSLH
-  - {t: ESC, h: DELETE}
-  - LGUI
-  - LALT
+  - COLON
+  - {t: LEFT PARENTHESIS, h: LEFT WIN}
+  - {t: RIGHT PARENTHESIS, h: LALT}
   - {t: SPACE, h: Fnc}
   - {t: SPACE, h: Num}
   - {t: SPACE, h: Num}

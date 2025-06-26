@@ -287,16 +287,21 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(28, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ESC</text>
-<text x="0" y="24" class="key hold">DELETE</text>
+<text x="0" y="0" class="key tap">COLON</text>
 </g>
 <g transform="translate(84, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 64%">LEFT</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">LEFT WIN</tspan></text>
 </g>
 <g transform="translate(140, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LALT</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 64%">RIGHT</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+<text x="0" y="24" class="key hold">LALT</text>
 </g>
 <g transform="translate(294, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
