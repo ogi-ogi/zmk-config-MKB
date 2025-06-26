@@ -1,43 +1,43 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - TAB
   - Q
   - W
   - E
   - R
   - T
+  - A
   - Y
   - U
   - I
   - O
   - P
   - BKSP
-  - {t: ESC, h: BT}
-  - A
+  - {t: A, h: BT}
   - S
   - D
   - F
   - G
+  - A
   - H
   - J
   - K
   - L
   - SEMI
   - SQT
-  - LSHFT
-  - Z
+  - {t: Z, h: LSHFT}
   - X
-  - {t: C, h: Sft+MCLK}
+  - C
   - V
   - B
+  - A
   - N
   - M
   - COMMA
   - DOT
   - UP
   - FSLH
-  - {t: ESC, h: LCTL}
+  - {t: ESC, h: DELETE}
   - LGUI
   - LALT
   - {t: SPACE, h: Fnc}
