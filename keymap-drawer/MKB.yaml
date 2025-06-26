@@ -47,15 +47,15 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - RIGHT
-  - DOWN
-  - UP
-  - LEFT
+  - Gui+RIGHT
+  - Gui+DOWN ARROW
+  - Gui+UP
+  - Gui+LEFT
   - ENTER
-  - PG UP
-  - END
-  - HOME
-  - PG DN
+  - UP ARROW
+  - RIGHT
+  - LEFT
+  - DOWN ARROW
   - ENTER
   Fnc:
   - GRAVE
