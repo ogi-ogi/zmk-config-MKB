@@ -47,15 +47,15 @@ layers:
   - A
   - A
   - A
-  - Gui+RIGHT
-  - Gui+DOWN ARROW
-  - Gui+UP
-  - Gui+LEFT
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
   - ENTER
   - UP ARROW
   - RIGHT
   - LEFT
-  - DOWN ARROW
+  - DOWN
   - ENTER
   Fnc:
   - GRAVE
