@@ -36,7 +36,7 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp Q  &kp W  &kp E  &kp R  &kp T  &none  &none  &kp T  &kp U  &kp I  &kp O  &kp P  &lt BT A  &kp S  &kp D  &kp F  &kp G  &none  &none  &kp H  &kp J  &kp K  &kp L  &kp MINUS  &mt LSHFT Z  &kp X  &kp C  &kp V  &kp B  &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &kp N  &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH  &kp COLON  &mt LEFT_WIN LEFT_PARENTHESIS  &mt LALT RIGHT_PARENTHESIS  &mt LEFT_CONTROL SPACE  &lt NUM LANG_ZENKAKUHANKAKU  &lt NUM BACKSPACE  &lt FUNC ENTER  &kp A  &kp A  &kp A  &kp END  &kp PAGE_DOWN  &kp PG_UP  &kp HOME  &kp ENTER  &kp UP_ARROW  &kp RIGHT  &kp LEFT  &kp DOWN  &kp ENTER
+&kp Q  &kp W  &kp E  &kp R  &kp T  &none  &none  &kp T  &kp U  &kp I  &kp O  &kp P  &lt BT A  &kp S  &kp D  &kp F  &kp G  &none  &none  &kp H  &kp J  &kp K  &kp L  &kp MINUS  &mt LSHFT Z  &kp X  &kp C  &kp V  &kp B  &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &kp N  &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH  &mt LCTRL COLON  &mt LEFT_WIN LEFT_PARENTHESIS  &mt LALT RIGHT_PARENTHESIS  &mt LEFT_CONTROL SPACE  &lt NUM LANG_ZENKAKUHANKAKU  &lt NUM BACKSPACE  &lt FUNC ENTER  &lt 3 A  &lt 3 A  &lt 3 A  &msc SCRL_RIGHT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_LEFT  &kp ENTER  &kp UP  &kp RIGHT  &kp LEFT  &kp DOWN  &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -45,7 +45,7 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp GRAVE  &kp PG_UP  &kp UP  &kp PG_DN  &kp HOME  &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &trans  &tog_ls  &kp LEFT  &kp DOWN  &kp RIGHT  &kp END  &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &trans  &kp BKSP  &kp DEL  &trans  &trans  &trans  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &kp LALT  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &trans  &trans  &trans  &kp RIGHT  &kp DOWN  &kp UP  &kp LEFT  &kp ENTER  &kp PG_UP  &kp END  &kp HOME  &kp PG_DN  &kp ENTER
+&none  &kp PG_UP  &kp UP  &kp PG_DN  &kp HOME  &none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &trans  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &kp END  &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &none  &none  &none  &none  &none  &none  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &none  &none  &none  &none  &kp DELETE  &none  &none  &trans  &trans  &trans  &kp LG(RIGHT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(LEFT)  &kp ENTER  &kp UP  &kp RIGHT  &kp LEFT  &kp DOWN  &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -54,7 +54,7 @@
         num_layer {
             label = "Num";
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &none  &none  &none  &none  &trans  &none  &none  &none  &trans  &trans  &trans  &trans  &none  &none  &none  &trans  &trans  &trans  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp DEL  &kp ENTER  &trans  &trans  &trans  &kp RIGHT  &kp DOWN  &kp UP  &kp LEFT  &kp ENTER  &kp PG_UP  &kp END  &kp HOME  &kp PG_DN  &kp ENTER
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &none  &kp SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &kp SQT  &kp TILDE  &kp NON_US_BACKSLASH  &kp AT_SIGN  &kp GRAVE  &kp SEMICOLON  &none  &kp ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS  &kp UNDERSCORE  &none  &none  &none  &none  &none  &none  &kp TAB  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL  &none  &none  &none  &none  &none  &kp PERIOD  &kp KP_NUMBER_0  &trans  &trans  &kp ENTER  &kp LC(LA(TAB))  &kp LA(F4)  &kp LG(UP)  &kp LS(LA(LC(TAB)))  &kp ENTER  &kp UP  &kp RIGHT  &kp LEFT  &kp DOWN  &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -63,7 +63,7 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT  &kp DOWN  &kp UP  &kp LEFT  &kp ENTER  &kp PG_UP  &kp END  &kp HOME  &kp PG_DN  &kp ENTER
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT  &kp DOWN  &kp UP  &kp LEFT  &kp ENTER  &kp PG_UP  &kp END  &kp HOME  &kp PG_DN  &kp ENTER
             >;
         };
 
