@@ -6,8 +6,8 @@ layers:
   - E
   - R
   - T
-  - ''
-  - ''
+  - '&CAVEE'
+  - ESC
   - T
   - U
   - I
@@ -18,8 +18,8 @@ layers:
   - D
   - F
   - G
-  - ''
-  - ''
+  - Gui+1
+  - Gui+Sft+S
   - H
   - J
   - K
@@ -158,8 +158,8 @@ layers:
   - {type: held}
   - PERIOD
   - KP 0
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
+  - BACKSPACE
   - ENTER
   - Ctl+Alt+TAB
   - Alt+F4
@@ -345,3 +345,7 @@ layers:
 combos:
 - p: [13, 14]
   k: TAB
+- p: [21, 22]
+  k: F2
+- p: [13, 12]
+  k: Sft+TAB
