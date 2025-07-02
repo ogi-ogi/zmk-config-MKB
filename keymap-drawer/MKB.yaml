@@ -47,10 +47,10 @@ layers:
   - A
   - A
   - A
-  - '&mmv MOVE_RIGHT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_LEFT'
+  - END
+  - PAGE DOWN
+  - PG UP
+  - HOME
   - ENTER
   - UP ARROW
   - RIGHT
