@@ -18,8 +18,8 @@ layers:
   - D
   - F
   - G
-  - Gui+1
-  - Gui+Sft+S
+  - INT MUHENKAN
+  - INT HENKAN
   - H
   - J
   - K
@@ -40,12 +40,12 @@ layers:
   - {t: COLON, h: LCTRL}
   - {t: LEFT PARENTHESIS, h: LEFT WIN}
   - {t: RIGHT PARENTHESIS, h: LALT}
-  - {t: SPACE, h: LEFT CONTROL}
-  - {t: LANG ZENKAKUHANKAKU, h: Num}
-  - {t: BACKSPACE, h: Num}
-  - {t: ENTER, h: Fnc}
-  - {t: A, h: Mouse}
-  - {t: A, h: Mouse}
+  - {t: SPACE, h: Mouse}
+  - {t: DELETE, h: Num}
+  - BACKSPACE
+  - ENTER
+  - ''
+  - ''
   - {t: A, h: Mouse}
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_DOWN'
@@ -100,7 +100,7 @@ layers:
   - ''
   - DELETE
   - ''
-  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,11 +211,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RIGHT
