@@ -55,7 +55,7 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp Q  &kp W  &kp E  &kp R  &kp T  &CAVEE  &kp ESC  &kp T  &kp U  &kp I  &kp O  &kp P  &lt BT A  &kp S  &kp D  &kp F  &kp G  &kp INT_MUHENKAN  &kp INT_HENKAN  &kp H  &kp J  &kp K  &kp L  &kp MINUS  &mt LSHFT Z  &kp X  &kp C  &kp V  &kp B  &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &kp N  &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH  &mt LCTRL COLON  &mt LEFT_WIN LEFT_PARENTHESIS  &mt LALT RIGHT_PARENTHESIS  &lt 3 SPACE  &lt 2 DELETE  &kp BACKSPACE  &kp ENTER  &none  &none  &lt 3 A  &msc SCRL_RIGHT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_LEFT  &kp ENTER  &kp UP  &kp RIGHT  &kp LEFT  &kp DOWN  &kp ENTER
+&kp Q  &kp W  &kp E  &kp R  &kp T  &CAVEE  &none  &kp Y  &kp U  &kp I  &kp O  &kp P  &lt BT A  &kp S  &kp D  &kp F  &kp G  &kp INT_MUHENKAN  &kp INT_HENKAN  &kp H  &kp J  &kp K  &kp L  &kp MINUS  &mt LSHFT Z  &kp X  &kp C  &kp V  &kp B  &none  &none  &kp N  &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH  &mt LCTRL COLON  &mt LEFT_WIN LEFT_PARENTHESIS  &mt LALT RIGHT_PARENTHESIS  &mt LCTRL SPACE  &lt 2 DELETE  &kp BACKSPACE  &kp ENTER  &none  &none  &lt 3 A  &msc SCRL_RIGHT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_LEFT  &kp ENTER  &kp UP  &kp RIGHT  &kp LEFT  &kp DOWN  &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
