@@ -1,48 +1,48 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
+  - {t: ESCAPE, h: toggle}
   - Q
   - W
   - E
   - R
   - T
-  - '&CAVEE'
-  - ''
   - Y
   - U
   - I
   - O
   - P
-  - {t: A, h: BT}
+  - ''
+  - ''
+  - A
   - S
   - D
   - F
   - G
-  - INT MUHENKAN
-  - INT HENKAN
   - H
   - J
   - K
   - L
   - MINUS
-  - {t: Z, h: LSHFT}
+  - ''
+  - LEFT SHIFT
+  - Z
   - X
   - C
   - V
-  - B
-  - ''
-  - ''
+  - {t: B, h: BT}
   - N
   - M
   - COMMA
   - PERIOD
-  - {t: SLASH, h: RIGHT SHIFT}
+  - SLASH
+  - RIGHT SHIFT
   - {t: COLON, h: LCTRL}
-  - {t: LEFT PARENTHESIS, h: LEFT WIN}
-  - {t: RIGHT PARENTHESIS, h: LALT}
+  - {t: LEFT PARENTHESIS, h: LEFT GUI}
+  - {t: RIGHT PARENTHESIS, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
-  - {t: DELETE, h: Num}
-  - BACKSPACE
+  - {t: INT MUHENKAN, h: Num}
+  - {t: INT HENKAN, h: LEFT SHIFT}
   - ENTER
   - ''
   - ''
@@ -51,12 +51,12 @@ layers:
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_LEFT'
-  - ENTER
+  - Alt+F4
   - UP
   - RIGHT
   - LEFT
   - DOWN
-  - ENTER
+  - F2
   Fnc:
   - ''
   - PG UP
@@ -298,24 +298,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
