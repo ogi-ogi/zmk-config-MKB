@@ -121,25 +121,26 @@ layers:
   - DOLLAR
   - PERCENT
   - AMPERSAND
-  - KP DIVIDE
+  - {t: ▽, type: trans}
+  - KP SLASH
   - KP 7
   - KP 8
   - KP 9
-  - KP SUBTRACT
-  - {t: ▽, type: trans}
+  - KP MINUS
   - SQT
   - TILDE
   - NON US BACKSLASH
   - AT SIGN
   - GRAVE
   - SEMICOLON
-  - KP ASTERISK
+  - ''
+  - KP MULTIPLY
   - KP 4
   - KP 5
   - KP 6
   - KP PLUS
-  - {t: ▽, type: trans}
   - UNDERSCORE
+  - ''
   - ''
   - ''
   - ''
@@ -150,7 +151,6 @@ layers:
   - KP 2
   - KP 3
   - KP ENTER
-  - EQUAL
   - ''
   - ''
   - ''
