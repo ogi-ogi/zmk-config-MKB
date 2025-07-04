@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - ''
+  - BACKSPACE
   - ''
   - A
   - S
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - MINUS
-  - ''
+  - DEL
   - LEFT SHIFT
   - Z
   - X
@@ -42,11 +42,11 @@ layers:
   - {t: RIGHT PARENTHESIS, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
   - {t: INT MUHENKAN, h: Num}
-  - {t: INT HENKAN, h: LEFT SHIFT}
-  - ENTER
-  - ''
-  - ''
-  - {t: A, h: Mouse}
+  - {t: INT HENKAN, h: Num}
+  - {t: ENTER, h: LEFT SHIFT}
+  - Sft+LEFT BRACKET
+  - RIGHT BRACKET
+  - Mouse
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
@@ -121,26 +121,25 @@ layers:
   - DOLLAR
   - PERCENT
   - AMPERSAND
-  - ''
-  - SLASH
+  - KP DIVIDE
   - KP 7
   - KP 8
   - KP 9
-  - MINUS
+  - KP SUBTRACT
+  - {t: ▽, type: trans}
   - SQT
   - TILDE
   - NON US BACKSLASH
   - AT SIGN
   - GRAVE
   - SEMICOLON
-  - ''
-  - ASTERISK
+  - KP ASTERISK
   - KP 4
   - KP 5
   - KP 6
-  - PLUS
+  - KP PLUS
+  - {t: ▽, type: trans}
   - UNDERSCORE
-  - ''
   - ''
   - ''
   - ''
@@ -150,17 +149,18 @@ layers:
   - KP 1
   - KP 2
   - KP 3
+  - KP ENTER
   - EQUAL
   - ''
   - ''
   - ''
   - ''
   - {type: held}
-  - PERIOD
+  - KP DOT
   - KP 0
-  - DELETE
-  - BACKSPACE
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Ctl+Alt+TAB
   - Alt+F4
   - Gui+UP
