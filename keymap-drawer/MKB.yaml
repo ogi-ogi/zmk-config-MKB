@@ -1,48 +1,48 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - {t: ESCAPE, h: toggle}
-  - Q
+  - {t: Q, h: toggle}
   - W
   - E
   - R
   - T
+  - INT MUHENKAN
+  - INT HENKAN
   - Y
   - U
   - I
   - O
   - P
-  - BACKSPACE
-  - ''
   - A
   - S
   - D
   - F
   - G
+  - ''
+  - ''
   - H
   - J
   - K
   - L
   - MINUS
-  - DEL
-  - LEFT SHIFT
   - Z
   - X
   - C
   - V
   - {t: B, h: BT}
-  - N
+  - ''
+  - ''
+  - M
   - M
   - COMMA
   - PERIOD
   - SLASH
-  - RIGHT SHIFT
   - {t: COLON, h: LCTRL}
   - {t: LEFT PARENTHESIS, h: LEFT GUI}
   - {t: RIGHT PARENTHESIS, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
-  - {t: INT MUHENKAN, h: Num}
-  - {t: INT HENKAN, h: Num}
+  - {t: DELETE, h: Num}
+  - {t: BACKSPACE, h: Num}
   - {t: ENTER, h: LEFT SHIFT}
   - Sft+LEFT BRACKET
   - RIGHT BRACKET
@@ -314,8 +314,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
