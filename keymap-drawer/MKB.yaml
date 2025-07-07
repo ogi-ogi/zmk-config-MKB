@@ -37,9 +37,9 @@ layers:
   - COMMA
   - PERIOD
   - SLASH
-  - {t: COLON, h: LCTRL}
-  - {t: LEFT PARENTHESIS, h: LEFT GUI}
-  - {t: RIGHT PARENTHESIS, h: LEFT ALT}
+  - {t: COLON, h: LEFT SHIFT}
+  - {t: Sft+9, h: LEFT GUI}
+  - {t: Sft+0, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
   - {t: DELETE, h: Num}
   - {t: BACKSPACE, h: Num}
