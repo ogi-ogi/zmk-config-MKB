@@ -38,13 +38,13 @@ layers:
   - PERIOD
   - SLASH
   - {t: COLON, h: LEFT SHIFT}
-  - {t: Sft+9, h: LEFT GUI}
-  - {t: Sft+0, h: LEFT ALT}
+  - {t: Sft+ASTERISK, h: LEFT GUI}
+  - {t: Sft+9, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
   - {t: DELETE, h: Num}
   - {t: BACKSPACE, h: Num}
   - {t: ENTER, h: LEFT SHIFT}
-  - Sft+LEFT BRACKET
+  - LEFT BRACKET
   - RIGHT BRACKET
   - Mouse
   - '&msc SCRL_RIGHT'
