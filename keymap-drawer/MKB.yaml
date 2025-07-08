@@ -52,7 +52,7 @@ layers:
   - UP
   - LEFT
   - F2
-  - '&mmv MOVE_UP'
+  - '&msc SCRL_UP'
   - '&mmv MOVE_RIGHT'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
