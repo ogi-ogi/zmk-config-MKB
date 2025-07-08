@@ -104,16 +104,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+RIGHT
-  - Gui+DOWN
-  - Gui+UP
-  - Gui+LEFT
-  - ENTER
-  - UP
-  - RIGHT
-  - LEFT
-  - DOWN
-  - ENTER
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   Num:
   - Sft+1
   - Sft+2
