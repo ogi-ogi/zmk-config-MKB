@@ -18,31 +18,31 @@ layers:
   - D
   - F
   - G
-  - ''
-  - ''
+  - '&CAVEE'
+  - '&hoi'
   - H
   - J
   - K
   - L
   - MINUS
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - {t: B, h: BT}
-  - ''
-  - ''
+  - Ctl+C
+  - Ctl+V
   - N
   - M
   - COMMA
   - PERIOD
-  - SLASH
+  - {t: SLASH, h: LEFT SHIFT}
   - APOS
   - {t: Sft+8, h: LEFT GUI}
   - {t: Sft+9, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
   - {t: DELETE, h: Num}
-  - {t: BACKSPACE, h: LEFT SHIFT}
+  - {t: BACKSPACE, h: Num}
   - ENTER
   - RIGHT BRACKET
   - Sft+RIGHT BRACKET
@@ -141,9 +141,9 @@ layers:
   - KP PLUS
   - Sft+INTERNATIONAL 1
   - SEMICOLON
-  - '&CAVEE'
-  - '&hoi'
-  - '&hdr'
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - TAB
@@ -161,10 +161,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
+  - Gui+RIGHT
+  - Gui+DOWN ARROW
+  - Gui+UP ARROW
+  - Gui+LEFT ARROW
   - ''
   - Gui+UP
   - Alt+Ctl+TAB
@@ -351,11 +351,3 @@ combos:
   k: Sft+TAB
 - p: [20, 19]
   k: Gui+Sft+S
-- p: [48, 51]
-  k: Gui+UP
-- p: [47, 54]
-  k: Gui+DOWN ARROW
-- p: [49, 53]
-  k: Gui+LEFT ARROW
-- p: [52, 46]
-  k: Gui+RIGHT ARROW
