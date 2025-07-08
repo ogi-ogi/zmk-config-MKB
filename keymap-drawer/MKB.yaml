@@ -115,24 +115,24 @@ layers:
   - DOWN
   - ENTER
   Num:
-  - '!'
-  - DOUBLE QUOTES
-  - HASH
-  - DOLLAR
-  - PERCENT
-  - AMPERSAND
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP SLASH
   - KP 7
   - KP 8
   - KP 9
   - KP MINUS
-  - SQT
-  - TILDE
+  - Sft+6
+  - Sft+7
   - NON US BACKSLASH
   - AT SIGN
   - GRAVE
-  - SEMICOLON
+  - ''
   - ''
   - KP MULTIPLY
   - KP 4
@@ -140,10 +140,10 @@ layers:
   - KP 6
   - KP PLUS
   - Sft+INTERNATIONAL 1
-  - ''
-  - ''
-  - ''
-  - ''
+  - SEMICOLON
+  - '&CAVEE'
+  - '&hoi'
+  - '&hdr'
   - ''
   - ''
   - TAB
