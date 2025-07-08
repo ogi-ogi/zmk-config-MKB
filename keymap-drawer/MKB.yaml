@@ -37,15 +37,15 @@ layers:
   - COMMA
   - PERIOD
   - SLASH
-  - {t: COLON, h: LEFT SHIFT}
+  - APOS
   - {t: Sft+8, h: LEFT GUI}
   - {t: Sft+9, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
   - {t: DELETE, h: Num}
-  - {t: BACKSPACE, h: Num}
+  - {t: BACKSPACE, h: LEFT SHIFT}
   - ENTER
-  - AT SIGN
-  - LEFT BRACKET
+  - RIGHT BRACKET
+  - Sft+RIGHT BRACKET
   - Mouse
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_DOWN'
@@ -166,10 +166,10 @@ layers:
   - Gui+UP
   - Meh+TAB
   - ENTER
-  - UP
-  - RIGHT
-  - LEFT
-  - DOWN
+  - Gui+UP
+  - Alt+Ctl+TAB
+  - Meh+TAB
+  - Alt+F4
   - ENTER
   Mouse:
   - {t: ▽, type: trans}
