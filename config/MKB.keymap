@@ -112,7 +112,7 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &trans  &kp KP_SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp SQT  &kp TILDE  &kp NON_US_BACKSLASH  &kp AT_SIGN  &kp GRAVE  &kp SEMICOLON  &none  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS  &kp UNDERSCORE  &none  &none  &none  &none  &none  &none  &kp TAB  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &none  &none  &none  &none  &none  &kp KP_DOT  &kp KP_NUMBER_0  &trans  &trans  &trans  &none  &none  &none  &none  &none  &kp LG(UP)  &kp LA(LC(TAB))  &kp LS(LA(LC(TAB)))  &kp LA(F4)  &kp ENTER
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &trans  &kp KP_SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp SQT  &kp TILDE  &kp NON_US_BACKSLASH  &kp AT_SIGN  &kp GRAVE  &kp SEMICOLON  &none  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS  &kp LS(INTERNATIONAL_1)  &none  &none  &none  &none  &none  &none  &kp TAB  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &none  &none  &none  &none  &none  &kp KP_DOT  &kp KP_NUMBER_0  &trans  &trans  &trans  &none  &none  &none  &none  &none  &kp LG(UP)  &kp LA(LC(TAB))  &kp LS(LA(LC(TAB)))  &kp LA(F4)  &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
