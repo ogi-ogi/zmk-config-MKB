@@ -53,9 +53,9 @@ layers:
   - LEFT
   - F2
   - '&msc SCRL_UP'
-  - '&mmv MOVE_RIGHT'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
   - F5
   Fnc:
   - ''
