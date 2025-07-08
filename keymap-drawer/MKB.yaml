@@ -161,11 +161,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Alt+TAB
-  - Alt+F4
-  - Gui+UP
-  - Meh+TAB
-  - ENTER
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Gui+UP
   - Alt+Ctl+TAB
   - Meh+TAB
@@ -199,9 +199,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&CAVEE'
+  - '&hoi'
+  - '&hdr'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -349,3 +349,13 @@ combos:
   k: F2
 - p: [13, 12]
   k: Sft+TAB
+- p: [20, 19]
+  k: Gui+Sft+S
+- p: [48, 51]
+  k: Gui+UP
+- p: [47, 54]
+  k: Gui+DOWN ARROW
+- p: [49, 53]
+  k: Gui+LEFT ARROW
+- p: [52, 46]
+  k: Gui+RIGHT ARROW
