@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - ''
+  - DELETE
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - ''
-  - ''
+  - BACKSPACE
+  - Mouse
   - S
   - S
   - D
@@ -37,16 +37,16 @@ layers:
   - PERIOD
   - SLASH
   - LEFT SHIFT
-  - Ctl+APOS
-  - {t: Sft+8, h: LEFT GUI}
-  - {t: Sft+9, h: LEFT ALT}
+  - {t: Ctl+C, h: LEFT ALT}
+  - {t: Ctl+V, h: LEFT GUI}
+  - '&CAVEE'
   - {t: SPACE, h: LCTRL}
-  - {t: DELETE, h: Num}
-  - {t: BACKSPACE, h: Num}
-  - ENTER
-  - ''
-  - ''
-  - ''
+  - {t: INT MUHENKAN, h: Num}
+  - {t: INT HENKAN, h: Num}
+  - {t: ENTER, h: LCTRL}
+  - A
+  - Sft+8
+  - Sft+9
   - RIGHT
   - DOWN
   - UP
@@ -56,7 +56,7 @@ layers:
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
-  - F5
+  - Ctl+W
   Fnc:
   - ''
   - PG UP
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -195,7 +195,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: '&mkp MB4', type: held}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
