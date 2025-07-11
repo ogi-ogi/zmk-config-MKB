@@ -1,52 +1,52 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - {t: Q, h: toggle}
+  - ''
+  - Q
   - W
   - E
   - R
   - T
-  - INT MUHENKAN
-  - INT HENKAN
   - Y
   - U
   - I
   - O
   - P
-  - A
+  - ''
+  - ''
+  - S
   - S
   - D
   - F
   - G
-  - '&CAVEE'
-  - '&hoi'
   - H
   - J
   - K
   - L
   - MINUS
-  - {t: Z, h: LEFT SHIFT}
+  - Mouse
+  - LEFT SHIFT
+  - Z
   - X
   - C
   - V
   - {t: B, h: BT}
-  - Ctl+C
-  - Ctl+V
   - N
   - M
   - COMMA
   - PERIOD
-  - {t: SLASH, h: LEFT SHIFT}
-  - APOS
+  - SLASH
+  - LEFT SHIFT
+  - Ctl+APOS
   - {t: Sft+8, h: LEFT GUI}
   - {t: Sft+9, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
   - {t: DELETE, h: Num}
   - {t: BACKSPACE, h: Num}
   - ENTER
-  - RIGHT BRACKET
-  - Sft+RIGHT BRACKET
-  - Mouse
+  - ''
+  - ''
+  - ''
   - RIGHT
   - DOWN
   - UP
@@ -195,7 +195,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - '&mkp MB4'
+  - {t: '&mkp MB4', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,7 +217,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - RIGHT
   - DOWN
   - UP
@@ -314,8 +314,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
