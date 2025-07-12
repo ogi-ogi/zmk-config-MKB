@@ -40,8 +40,8 @@ layers:
   - {t: Ctl+C, h: LEFT ALT}
   - {t: Ctl+V, h: LEFT GUI}
   - '&CAVEE'
-  - {t: SPACE, h: LCTRL}
-  - {t: DELETE, h: Num}
+  - {t: DELETE, h: LCTRL}
+  - {t: SPACE, h: Num}
   - {t: BACKSPACE, h: Num}
   - {t: ENTER, h: LCTRL}
   - APOSTROPHE
