@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - DELETE
+  - INTERNATIONAL 5
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - INT HENKAN
   - Mouse
   - A
   - S
@@ -41,8 +41,8 @@ layers:
   - {t: Ctl+V, h: LEFT GUI}
   - '&CAVEE'
   - {t: SPACE, h: LCTRL}
-  - {t: INT MUHENKAN, h: Num}
-  - {t: INT HENKAN, h: Num}
+  - {t: DELETE, h: Num}
+  - {t: BACKSPACE, h: Num}
   - {t: ENTER, h: LCTRL}
   - APOSTROPHE
   - Sft+8
