@@ -44,7 +44,7 @@ layers:
   - {t: INT MUHENKAN, h: Num}
   - {t: INT HENKAN, h: Num}
   - {t: ENTER, h: LCTRL}
-  - A
+  - APOSTROPHE
   - Sft+8
   - Sft+9
   - RIGHT
@@ -120,7 +120,7 @@ layers:
   - Sft+3
   - Sft+4
   - Sft+5
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - KP SLASH
   - KP 7
