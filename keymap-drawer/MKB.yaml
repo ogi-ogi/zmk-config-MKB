@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: Fnc}
   - S
   - D
   - F
@@ -24,7 +24,7 @@ layers:
   - J
   - K
   - L
-  - MINUS
+  - {t: MINUS, h: Fnc}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -70,7 +70,7 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -192,10 +192,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - '&mkp MB4'
   - '&mkp MB3'
   - '&mkp MB2'
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
