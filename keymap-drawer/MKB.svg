@@ -330,15 +330,15 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(812, 196)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">APOSTROPHE</tspan></text>
+<text x="0" y="0" class="key tap">Sft+8</text>
 </g>
 <g transform="translate(868, 196)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Sft+8</text>
+<text x="0" y="0" class="key tap">Sft+9</text>
 </g>
 <g transform="translate(924, 196)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Sft+9</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">APOSTROPHE</tspan></text>
 </g>
 <g transform="translate(448, 224)" class="key keypos-46">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>

@@ -44,9 +44,9 @@ layers:
   - {t: DELETE, h: Num}
   - {t: BACKSPACE, h: Num}
   - {t: ENTER, h: LCTRL}
-  - APOSTROPHE
   - Sft+8
   - Sft+9
+  - APOSTROPHE
   - RIGHT
   - DOWN
   - UP
