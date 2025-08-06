@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LCTRL}
+  - {t: A, h: Mouse}
   - S
   - D
   - F
@@ -24,7 +24,7 @@ layers:
   - J
   - K
   - L
-  - {t: MINUS, h: LCTRL}
+  - {t: MINUS, h: Scr}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -40,7 +40,7 @@ layers:
   - {t: Ctl+C, h: LEFT ALT}
   - {t: Ctl+V, h: LGUI}
   - '&cavve'
-  - {t: SPACE, h: Mouse}
+  - {t: SPACE, h: LCTRL}
   - {t: DELETE, h: Num}
   - BACKSPACE
   - ENTER
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -252,7 +252,7 @@ layers:
   - '&mkp MB4'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
