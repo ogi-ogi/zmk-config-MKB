@@ -6,20 +6,20 @@ layers:
   - E
   - R
   - T
-  - ''
-  - ''
+  - INT MUHENKAN
+  - INT HENKAN
   - Y
   - U
   - I
   - O
   - P
-  - {t: A, h: Mouse}
+  - A
   - S
   - D
   - F
   - G
-  - ''
-  - ''
+  - Ctl+PG UP
+  - Ctl+PAGE DOWN
   - H
   - J
   - K
@@ -40,10 +40,10 @@ layers:
   - {t: Ctl+C, h: LEFT ALT}
   - {t: Ctl+V, h: LGUI}
   - '&cavve'
-  - {t: SPACE, h: LCTRL}
+  - {t: SPACE, h: Mouse}
   - {t: DELETE, h: Num}
   - BACKSPACE
-  - ENTER
+  - {t: ENTER, h: LCTRL}
   - Sft+8
   - Sft+9
   - {t: SINGLE QUOTE, h: BT}
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -349,7 +349,3 @@ combos:
   k: Sft+TAB
 - p: [21, 22]
   k: F2
-- p: [9, 10]
-  k: INT HENKAN
-- p: [1, 2]
-  k: INT MUHENKAN
