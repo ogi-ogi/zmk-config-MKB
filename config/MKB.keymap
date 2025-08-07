@@ -89,8 +89,6 @@
 
             // tap-ms = <20>;
 
-            zmk,sensor-trigger-triggers-per-rotation = <48>;
-
         };
     };
 
