@@ -77,29 +77,6 @@
         };
     };
 
-     behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-
-            // 追加: スクロールのタップ時間
-
-            tap-ms = <20>;
-        };
-    };
-
-
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -112,8 +89,7 @@
 &mt LEFT_ALT LC(C)  &mt LGUI LC(V)  &cavve                   &mt LCTRL SPACE  &lt 2 DELETE             &kp BACKSPACE      &kp ENTER           &kp LS(N8)  &kp LS(N9)  &lt 5 SINGLE_QUOTE
 &kp LEFT            &kp UP          &kp LG(LS(S))  &kp DOWN  &kp RIGHT                                                    &win_L     &win_up  &kp LA(F4)  &win_down   &win_R
             >;
-              sensor-bindings = <&scroll_up_down>;
-            //sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
+              sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         function_layer {
