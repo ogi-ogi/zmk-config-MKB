@@ -13,25 +13,25 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: Mouse}
+  - {t: A, h: LCTRL}
   - S
   - D
   - F
   - G
-  - Ctl+PG UP
-  - Ctl+PAGE DOWN
+  - ''
+  - ''
   - H
   - J
   - K
   - L
-  - {t: MINUS, h: Scr}
+  - {t: MINUS, h: Mouse}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
-  - Meh+TAB
-  - Alt+Ctl+TAB
+  - ''
+  - ''
   - N
   - M
   - COMMA
@@ -40,10 +40,10 @@ layers:
   - {t: Ctl+C, h: LEFT ALT}
   - {t: Ctl+V, h: LGUI}
   - '&cavve'
-  - {t: SPACE, h: LCTRL}
+  - {t: SPACE, h: Mouse}
   - {t: DELETE, h: Num}
-  - BACKSPACE
-  - ENTER
+  - {t: BACKSPACE, h: LEFT WIN}
+  - {t: ENTER, h: LCTRL}
   - Sft+8
   - Sft+9
   - {t: SINGLE QUOTE, h: BT}
@@ -52,11 +52,11 @@ layers:
   - Gui+Sft+S
   - DOWN
   - RIGHT
-  - '&win_L'
-  - '&win_up'
+  - Meh+TAB
+  - Ctl+PAGE DOWN
   - Alt+F4
-  - '&win_down'
-  - '&win_R'
+  - Ctl+PAGE UP
+  - Alt+Ctl+TAB
   Fnc:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -195,7 +195,7 @@ layers:
   - '&mkp MB4'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -252,7 +252,7 @@ layers:
   - '&mkp MB4'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -346,6 +346,8 @@ combos:
 - p: [13, 14]
   k: TAB
 - p: [12, 13]
-  k: Sft+TAB
+  k: Ctl+A
 - p: [21, 22]
   k: F2
+- p: [24, 25]
+  k: Ctl+Z
