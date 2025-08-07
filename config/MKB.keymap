@@ -13,6 +13,8 @@
 #define SCROLL 4
 #define BT 5
 
+#define ZMK_MOUSE_SCRL_VAL 140
+
 &mt {
     flavor = "balanced";
     tapping-term-ms = <280>;
