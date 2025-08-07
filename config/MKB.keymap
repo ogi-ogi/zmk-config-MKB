@@ -88,6 +88,9 @@
             // 追加: スクロールのタップ時間
 
             // tap-ms = <20>;
+
+            zmk,sensor-trigger-triggers-per-rotation = <48>;
+
         };
     };
 
