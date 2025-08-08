@@ -18,8 +18,8 @@ layers:
   - D
   - F
   - G
-  - ''
-  - ''
+  - Ctl+PAGE UP
+  - Alt+Ctl+TAB
   - H
   - J
   - K
@@ -30,8 +30,8 @@ layers:
   - C
   - V
   - B
-  - ''
-  - ''
+  - Ctl+PAGE DOWN
+  - Meh+TAB
   - N
   - M
   - COMMA
@@ -40,9 +40,9 @@ layers:
   - {t: Ctl+C, h: LEFT ALT}
   - {t: Ctl+V, h: LGUI}
   - '&cavve'
-  - {t: SPACE, h: Mouse}
+  - SPACE
   - {t: DELETE, h: Num}
-  - {t: BACKSPACE, h: LEFT WIN}
+  - BACKSPACE
   - {t: ENTER, h: LCTRL}
   - Sft+8
   - Sft+9
@@ -52,11 +52,11 @@ layers:
   - Gui+Sft+S
   - DOWN
   - RIGHT
-  - Meh+TAB
-  - Ctl+PAGE DOWN
+  - Gui+LEFT ARROW
+  - Gui+UP ARROW
   - Alt+F4
-  - Ctl+PAGE UP
-  - Alt+Ctl+TAB
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
   Fnc:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
