@@ -40,9 +40,9 @@ layers:
   - {t: Ctl+C, h: LEFT ALT}
   - {t: Ctl+V, h: LGUI}
   - '&cavve'
-  - {t: SPACE, h: Num}
+  - {t: SPACE, h: Scr}
   - {t: DELETE, h: Num}
-  - BACKSPACE
+  - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: ENTER, h: LCTRL}
   - Sft+8
   - Sft+9
@@ -154,8 +154,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - KP DOT
   - KP 0
   - {t: ▽, type: trans}
@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
