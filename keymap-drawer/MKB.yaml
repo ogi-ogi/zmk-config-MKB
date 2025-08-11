@@ -6,8 +6,8 @@ layers:
   - E
   - R
   - T
-  - INT MUHENKAN
-  - INT HENKAN
+  - Ctl+W
+  - Alt+F4
   - Y
   - U
   - I
@@ -22,7 +22,7 @@ layers:
   - Alt+Ctl+TAB
   - H
   - J
-  - K
+  - {t: K, h: LEFT WIN}
   - L
   - {t: MINUS, h: Mouse}
   - {t: Z, h: LEFT SHIFT}
@@ -36,9 +36,9 @@ layers:
   - M
   - COMMA
   - DOT
-  - {t: FSLH, h: LEFT SHIFT}
+  - {t: FSLH, h: Scr}
   - {t: Ctl+C, h: LEFT ALT}
-  - {t: Ctl+V, h: LGUI}
+  - Ctl+V
   - '&cavve'
   - {t: SPACE, h: Scr}
   - {t: DELETE, h: Num}
@@ -52,11 +52,11 @@ layers:
   - Gui+Sft+S
   - DOWN
   - RIGHT
-  - Gui+LEFT ARROW
-  - Gui+UP ARROW
-  - Alt+F4
-  - Gui+DOWN ARROW
-  - Gui+RIGHT ARROW
+  - HOME
+  - PG UP
+  - ESCAPE
+  - PG DN
+  - END
   Fnc:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,11 +264,11 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -351,3 +351,9 @@ combos:
   k: F2
 - p: [24, 25]
   k: Ctl+Z
+- p: [9, 10]
+  k: INT HENKAN
+- p: [1, 2]
+  k: INT MUHENKAN
+- p: [0, 1]
+  k: Ctl+Y
