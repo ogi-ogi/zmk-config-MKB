@@ -80,6 +80,15 @@
         };
     };
 
+    layer_listeners {
+        compatible = "zmk,layer-listeners";
+
+        release_alt {
+            layers = <AppCange>;
+            bindings = <&kt_on LEFT_ALT &kt_off LEFT_ALT>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -169,6 +178,8 @@
 &trans  &trans  &trans          &trans  &trans      &trans  &trans          &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp &kp TAB &kp LS(TAB)>;
         };
 
         WindowSnap {
