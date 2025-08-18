@@ -16,7 +16,7 @@ layers:
   - {t: A, h: LCTRL}
   - S
   - D
-  - {t: F, h: '6'}
+  - F
   - G
   - Ctl+PAGE DOWN
   - Alt+Ctl+TAB
@@ -358,7 +358,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
