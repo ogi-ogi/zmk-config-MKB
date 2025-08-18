@@ -13,6 +13,8 @@
 #define MOUSE 3
 #define SCROLL 4
 #define BT 5
+#define AppCange 6
+#define WindowSnap 7
 
 &mt {
     flavor = "balanced";
