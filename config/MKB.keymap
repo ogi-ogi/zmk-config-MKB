@@ -209,6 +209,7 @@
 &trans  &trans  &trans          &trans  &trans      &trans  &trans          &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
             >;
+            sensor-bindings = <&kt_on LEFT_ALT>, <&kt_off LEFT_ALT>;
         };
 
         WindowSnap {
