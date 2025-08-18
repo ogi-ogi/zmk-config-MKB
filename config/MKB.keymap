@@ -14,8 +14,6 @@
 #define MOUSE 3
 #define SCROLL 4
 #define BT 5
-#define AppCange 6
-#define WindowSnap 7
 
 &mt {
     flavor = "balanced";
@@ -71,20 +69,6 @@
             bindings = <&kp LA(LC(V)) &kp V &kp E>;
             label = "CAVVE";
         };
-
-        kp_to: kp_to {
-            compatible = "zmk,behavior-macro-two-param";
-            wait-ms = <0>;
-            tap-ms = <0>;
-            #binding-cells = <2>;
-            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER>;
-        };
-
-        to_kp: to_kp {
-            compatible = "zmk,behavior-macro-two-param";
-            #binding-cells = <2>;
-            bindings = <&macro_param_1to1 &to MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>;
-        };
     };
 
     behaviors {
@@ -95,29 +79,6 @@
 
             tap-ms = <20>;
         };
-
-        kt_on: key_toggle_on_only {
-            compatible = "zmk,behavior-key-toggle";
-            #binding-cells = <1>;
-            display-name = "Key Toggle On";
-            toggle-mode = "on";
-        };
-
-        kt_off: key_toggle_off_only {
-            compatible = "zmk,behavior-key-toggle";
-            #binding-cells = <1>;
-            display-name = "Key Toggle Off";
-            toggle-mode = "off";
-        };
-    };
-
-    layer_listeners {
-        compatible = "zmk,layer-listeners";
-
-        release_alt {
-            layers = <AppCange>;
-            bindings = <&kt_on LEFT_ALT>, <&kt_off LEFT_ALT>;
-        };
     };
 
     keymap {
@@ -127,7 +88,7 @@
             label = "Def";
             bindings = <
 &kp Q               &kp W      &kp E          &kp R     &kp T        &kp LC(W)              &kp LA(F4)                &kp Y            &kp U      &kp I           &kp O       &kp P
-&mt LCTRL A         &kp S      &kp D          &lt 6 F   &kp G        &kp LC(PAGE_DOWN)      &kp LA(LC(TAB))           &kp H            &kp J      &mt LEFT_WIN K  &kp L       &lt 3 MINUS
+&mt LCTRL A         &kp S      &kp D          &kp F     &kp G        &kp LC(PAGE_DOWN)      &kp LA(LC(TAB))           &kp H            &kp J      &mt LEFT_WIN K  &kp L       &lt 3 MINUS
 &mt LEFT_SHIFT Z    &kp X      &kp C          &kp V     &kp B        &kp LC(PAGE_UP)        &kp LS(LA(LC(TAB)))       &kp N            &kp M      &kp COMMA       &kp DOT     &lt 4 FSLH
 &mt LEFT_ALT LC(C)  &kp LC(V)  &cavve                   &lt 4 SPACE  &lt 2 DELETE           &mt LEFT_SHIFT BACKSPACE  &mt LCTRL ENTER             &kp LS(N8)      &kp LS(N9)  &lt 5 SINGLE_QUOTE
 &kp LEFT            &kp UP     &kp LG(LS(S))  &kp DOWN  &kp RIGHT                                                     &kp HOME         &kp PG_UP  &kp ESCAPE      &kp PG_DN   &kp END
@@ -199,27 +160,6 @@
             >;
 
             sensor-bindings = <&scroll_up_down &scroll_up_down>;
-        };
-
-        AppCange {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans  &trans      &trans  &trans          &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-            >;
-            sensor-bindings = <&kt_on LEFT_ALT>, <&kt_off LEFT_ALT>;
-        };
-
-        WindowSnap {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans  &trans      &trans  &trans          &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
