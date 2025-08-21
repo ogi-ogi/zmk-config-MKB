@@ -10,7 +10,7 @@ layers:
   - '&colon'
   - Y
   - U
-  - I
+  - {t: I, h: Scr}
   - O
   - P
   - {t: A, h: LCTRL}
@@ -22,7 +22,7 @@ layers:
   - '&underbar'
   - H
   - J
-  - {t: K, h: LEFT WIN}
+  - K
   - L
   - {t: MINUS, h: Mouse}
   - {t: Z, h: LEFT SHIFT}
@@ -238,7 +238,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
