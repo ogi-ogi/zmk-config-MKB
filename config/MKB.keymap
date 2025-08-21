@@ -177,7 +177,7 @@
 &kp LEFT             &kp UP               &kp LG(LS(S))     &kp DOWN  &kp RIGHT                                                &kp HOME     &kp PG_UP  &kp ESCAPE      &kp PG_DN  &kp END
             >;
 
-            sensor-bindings = <&scroll_up_down &scroll_up_down>;
+            sensor-bindings = <&kp LEFT &kp RIGHT>;
         };
 
         function_layer {
@@ -190,7 +190,7 @@
 &trans  &trans  &trans  &trans  &trans                       &trans   &trans  &trans  &trans   &trans
             >;
 
-            sensor-bindings = <&scroll_up_down &scroll_up_down>;
+            sensor-bindings = <&kp C_PG_UP &kp C_PG_DN>;
         };
 
         num_layer {
