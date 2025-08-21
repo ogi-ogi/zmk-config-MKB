@@ -6,8 +6,8 @@ layers:
   - E
   - R
   - T
-  - Ctl+W
-  - Alt+F4
+  - '&brackets1'
+  - '&colon'
   - Y
   - U
   - I
@@ -18,8 +18,8 @@ layers:
   - D
   - F
   - G
-  - Ctl+PAGE DOWN
-  - Alt+Ctl+TAB
+  - '&brackets2'
+  - '&underbar'
   - H
   - J
   - {t: K, h: LEFT WIN}
@@ -29,14 +29,14 @@ layers:
   - X
   - C
   - V
-  - B
-  - Ctl+PAGE UP
-  - Meh+TAB
+  - {t: B, h: BT}
+  - '&brackets3'
+  - '&apostrophe'
   - N
   - M
   - COMMA
   - DOT
-  - {t: FSLH, h: Scr}
+  - {t: FSLH, h: RIGHT SHIFT}
   - {t: Sft+6, h: LEFT ALT}
   - {t: Sft+3, h: LEFT WIN}
   - LEFT BRACKET
@@ -44,9 +44,9 @@ layers:
   - {t: DELETE, h: Num}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: ENTER, h: Num}
-  - Sft+4
-  - Sft+9
-  - {t: SINGLE QUOTE, h: BT}
+  - '&dollar'
+  - '&pipe'
+  - '&backquote'
   - LEFT
   - UP
   - Gui+Sft+S
@@ -115,11 +115,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Num:
-  - Sft+1
-  - Sft+2
-  - Sft+3
-  - Sft+4
-  - Sft+5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP SLASH
@@ -127,11 +127,11 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - Sft+6
-  - Sft+7
-  - DOUBLE QUOTES
-  - EQUAL
-  - LEFT BRACKET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP MULTIPLY
@@ -139,28 +139,28 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - INTERNATIONAL 1
-  - RIGHT BRACKET
-  - NUHS
-  - SEMICOLON
-  - INT3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+5
   - KP 1
   - KP 2
   - KP 3
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+F4
+  - Ctl+T
+  - Ctl+W
   - Meh+TAB
   - {t: Alt+Ctl+TAB, type: held}
   - KP DOT
   - KP 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SINGLE QUOTE
+  - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+UP ARROW
   - {t: ▽, type: trans}
@@ -181,7 +181,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Scr
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,11 +264,11 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -314,24 +314,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -359,3 +359,9 @@ combos:
   k: Ctl+Y
 - p: [41, 42]
   k: Alt+ENTER
+- p: [2, 3]
+  k: Ctl+C
+- p: [14, 15]
+  k: Ctl+V
+- p: [26, 27]
+  k: '&cavve'
