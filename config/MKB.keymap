@@ -177,7 +177,7 @@
 &kp LEFT             &kp UP               &kp LG(LS(S))     &kp DOWN  &kp RIGHT                                                &kp HOME     &kp PG_UP  &kp ESCAPE      &kp PG_DN  &kp END
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         function_layer {
@@ -203,7 +203,7 @@
 &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &trans     &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)                                   &trans           &trans     &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_up_down &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
         };
 
         mouse_layer {
