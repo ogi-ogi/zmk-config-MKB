@@ -37,14 +37,14 @@ layers:
   - COMMA
   - DOT
   - {t: FSLH, h: Scr}
-  - {t: Ctl+C, h: LEFT ALT}
-  - Ctl+V
-  - '&cavve'
+  - {t: Sft+6, h: LEFT ALT}
+  - {t: Sft+3, h: LEFT WIN}
+  - LEFT BRACKET
   - {t: SPACE, h: Scr}
   - {t: DELETE, h: Num}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: ENTER, h: LCTRL}
-  - Sft+8
+  - {t: ENTER, h: Num}
+  - Sft+4
   - Sft+9
   - {t: SINGLE QUOTE, h: BT}
   - LEFT
@@ -154,18 +154,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - Meh+TAB
+  - {t: Alt+Ctl+TAB, type: held}
   - KP DOT
   - KP 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SINGLE QUOTE
+  - Gui+LEFT ARROW
+  - Gui+UP ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -357,3 +357,5 @@ combos:
   k: INT MUHENKAN
 - p: [0, 1]
   k: Ctl+Y
+- p: [41, 42]
+  k: Alt+ENTER
