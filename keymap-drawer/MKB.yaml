@@ -359,9 +359,9 @@ combos:
   k: Ctl+Y
 - p: [41, 42]
   k: Alt+ENTER
-- p: [2, 3]
-  k: Ctl+C
 - p: [14, 15]
-  k: Ctl+V
+  k: Ctl+C
 - p: [26, 27]
+  k: Ctl+V
+- p: [2, 3]
   k: '&cavve'
