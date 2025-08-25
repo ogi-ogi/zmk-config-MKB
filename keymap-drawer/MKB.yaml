@@ -151,26 +151,26 @@ layers:
   - KP 2
   - KP 3
   - {t: ▽, type: trans}
-  - Alt+F4
-  - Ctl+T
-  - Ctl+W
-  - Meh+TAB
-  - {t: Alt+Ctl+TAB, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - KP DOT
   - KP 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+UP ARROW
-  - {t: ▽, type: trans}
-  - Gui+DOWN ARROW
-  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BACKSPACE
+  - ESC
+  - {t: ▽, type: trans}
+  - Gui+1
+  - DELETE
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -208,21 +208,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Alt+F4
+  - Ctl+T
+  - Ctl+W
+  - Meh+TAB
+  - Alt+Ctl+TAB
+  - Ctl+PG UP
+  - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Gui+UP ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
