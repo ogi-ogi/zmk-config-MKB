@@ -115,11 +115,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Num:
-  - Gui+1
-  - Gui+2
-  - Gui+3
-  - Gui+4
-  - Gui+5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP SLASH
@@ -127,10 +127,10 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - Gui+6
-  - Gui+7
-  - Gui+8
-  - Gui+9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,11 +172,11 @@ layers:
   - Gui+1
   - DELETE
   Mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - Gui+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,10 +184,10 @@ layers:
   - Scr
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+6
+  - Gui+7
+  - Gui+8
+  - Gui+9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
