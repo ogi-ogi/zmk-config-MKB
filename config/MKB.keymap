@@ -196,11 +196,11 @@
         num_layer {
             label = "Num";
             bindings = <
-&trans              &trans            &trans     &trans              &trans               &trans               &trans      &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS
-&trans              &trans            &trans     &trans              &trans               &trans               &trans      &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS
-&trans              &trans            &trans     &trans              &trans               &trans               &trans      &kp LS(N5)       &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans
-&kp LA(F4)          &kp LC(T)         &kp LC(W)                      &kp LS(LA(LC(TAB)))  &kp LA(LC(TAB))      &kp KP_DOT  &kp KP_N0                   &trans     &trans     &trans
-&kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &trans     &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)                                   &trans           &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans      &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_MINUS
+&trans  &trans  &trans  &trans  &trans  &trans      &trans      &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS
+&trans  &trans  &trans  &trans  &trans  &trans      &trans      &kp LS(N5)       &kp KP_N1  &kp KP_N2  &kp KP_N3   &trans
+&trans  &trans  &trans          &trans  &trans      &kp KP_DOT  &kp KP_N0                   &trans     &trans      &trans
+&trans  &trans  &trans  &trans  &trans                          &kp BACKSPACE    &kp ESC    &trans     &kp LG(N1)  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -209,11 +209,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &mo 4     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5  &mkp MB4  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &mkp MB1  &trans    &trans    &trans
-&trans  &trans  &trans          &trans  &trans      &trans  &trans              &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &trans    &trans
+&trans              &trans            &trans     &trans              &trans               &trans               &trans         &trans             &trans    &mo 4     &trans    &trans
+&trans              &trans            &trans     &trans              &trans               &trans               &trans         &mkp MB5           &mkp MB4  &mkp MB3  &mkp MB2  &trans
+&trans              &trans            &trans     &trans              &trans               &trans               &trans         &trans             &mkp MB1  &trans    &trans    &trans
+&kp LA(F4)          &kp LC(T)         &kp LC(W)                      &kp LS(LA(LC(TAB)))  &kp LA(LC(TAB))      &kp LC(PG_UP)  &kp LC(PAGE_DOWN)            &trans    &trans    &trans
+&kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &trans     &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)                                      &trans             &trans    &trans    &trans    &trans
             >;
 
             sensor-bindings = <&scroll_up_down &scroll_up_down>;
