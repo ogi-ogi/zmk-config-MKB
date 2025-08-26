@@ -40,7 +40,7 @@ layers:
   - {t: Sft+6, h: LEFT ALT}
   - {t: Sft+3, h: LEFT WIN}
   - LEFT BRACKET
-  - {t: SPACE, h: Scr}
+  - {t: SPACE, h: Mouse}
   - {t: DELETE, h: Num}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: ENTER, h: Num}
@@ -180,9 +180,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Scr
-  - {t: ▽, type: trans}
+  - Alt+Ctl+TAB
+  - Ctl+PG UP
+  - Ctl+PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -208,13 +208,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Alt+F4
-  - Ctl+T
   - Ctl+W
-  - Meh+TAB
-  - Alt+Ctl+TAB
-  - Ctl+PG UP
-  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
