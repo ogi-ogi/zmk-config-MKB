@@ -209,11 +209,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&kp LG(NUMBER_1)    &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)    &kp LG(NUMBER_5)     &trans               &trans         &trans             &trans    &mo 4     &trans    &trans
-&kp LG(NUMBER_6)    &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)    &trans               &trans               &trans         &mkp MB5           &mkp MB4  &mkp MB3  &mkp MB2  &trans
-&trans              &trans            &trans            &trans              &trans               &trans               &trans         &trans             &mkp MB1  &trans    &trans    &trans
-&kp LA(F4)          &kp LC(T)         &kp LC(W)                             &kp LS(LA(LC(TAB)))  &kp LA(LC(TAB))      &kp LC(PG_UP)  &kp LC(PAGE_DOWN)            &trans    &trans    &trans
-&kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &trans            &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)                                      &trans             &trans    &trans    &trans    &trans
+&trans              &trans            &trans     &trans              &trans               &trans               &trans         &trans             &trans    &mo 4     &trans    &trans
+&trans              &trans            &trans     &trans              &trans               &trans               &trans         &mkp MB5           &mkp MB4  &mkp MB3  &mkp MB2  &trans
+&trans              &trans            &trans     &trans              &trans               &trans               &trans         &trans             &mkp MB1  &trans    &trans    &trans
+&kp LA(F4)          &kp LC(T)         &kp LC(W)                      &kp LS(LA(LC(TAB)))  &kp LA(LC(TAB))      &kp LC(PG_UP)  &kp LC(PAGE_DOWN)            &trans    &trans    &trans
+&kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &trans     &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)                                      &trans             &trans    &trans    &trans    &trans
             >;
 
             sensor-bindings = <&scroll_up_down &scroll_up_down>;
