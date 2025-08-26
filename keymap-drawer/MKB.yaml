@@ -36,7 +36,7 @@ layers:
   - M
   - COMMA
   - DOT
-  - {t: FSLH, h: RIGHT SHIFT}
+  - {t: FSLH, h: Ctl+RIGHT SHIFT}
   - {t: Sft+6, h: LEFT ALT}
   - {t: Sft+3, h: LEFT WIN}
   - LEFT BRACKET
