@@ -172,7 +172,7 @@
             bindings = <
 &kp Q                &kp W                &kp E             &kp R     &kp T        &brackets1        &colon                    &kp Y        &kp U      &lt 4 I     &kp O      &kp P
 &mt LCTRL A          &kp S                &kp D             &kp F     &kp G        &brackets2        &underbar                 &kp H        &kp J      &kp K       &kp L      &lt 3 MINUS
-&mt LEFT_SHIFT Z     &kp X                &kp C             &kp V     &lt 5 B      &brackets3        &apostrophe               &kp N        &kp M      &kp COMMA   &kp DOT    &mt RIGHT_SHIFT FSLH
+&mt LEFT_SHIFT Z     &kp X                &kp C             &kp V     &lt 5 B      &brackets3        &apostrophe               &kp N        &kp M      &kp COMMA   &kp DOT    &mt LC(RIGHT_SHIFT) FSLH
 &mt LEFT_ALT LS(N6)  &mt LEFT_WIN LS(N3)  &kp LEFT_BRACKET            &lt 3 SPACE  &lt 2 DELETE      &mt LEFT_SHIFT BACKSPACE  &lt 2 ENTER             &dollar     &pipe      &backquote
 &kp LEFT             &kp UP               &kp LG(LS(S))     &kp DOWN  &kp RIGHT                                                &kp HOME     &kp PG_UP  &kp ESCAPE  &kp PG_DN  &kp END
             >;
