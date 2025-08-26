@@ -173,7 +173,7 @@
 &kp Q                &kp W                &kp E             &kp R     &kp T        &brackets1        &colon                    &kp Y        &kp U      &lt 4 I     &kp O      &kp P
 &mt LCTRL A          &kp S                &kp D             &kp F     &kp G        &brackets2        &underbar                 &kp H        &kp J      &kp K       &kp L      &lt 3 MINUS
 &mt LEFT_SHIFT Z     &kp X                &kp C             &kp V     &lt 5 B      &brackets3        &apostrophe               &kp N        &kp M      &kp COMMA   &kp DOT    &mt RIGHT_SHIFT FSLH
-&mt LEFT_ALT LS(N6)  &mt LEFT_WIN LS(N3)  &kp LEFT_BRACKET            &lt 4 SPACE  &lt 2 DELETE      &mt LEFT_SHIFT BACKSPACE  &lt 2 ENTER             &dollar     &pipe      &backquote
+&mt LEFT_ALT LS(N6)  &mt LEFT_WIN LS(N3)  &kp LEFT_BRACKET            &lt 3 SPACE  &lt 2 DELETE      &mt LEFT_SHIFT BACKSPACE  &lt 2 ENTER             &dollar     &pipe      &backquote
 &kp LEFT             &kp UP               &kp LG(LS(S))     &kp DOWN  &kp RIGHT                                                &kp HOME     &kp PG_UP  &kp ESCAPE  &kp PG_DN  &kp END
             >;
 
@@ -209,11 +209,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans              &trans            &trans     &trans              &trans               &trans               &trans         &trans             &trans    &mo 4     &trans    &trans
-&trans              &trans            &trans     &trans              &trans               &trans               &trans         &mkp MB5           &mkp MB4  &mkp MB3  &mkp MB2  &trans
-&trans              &trans            &trans     &trans              &trans               &trans               &trans         &trans             &mkp MB1  &trans    &trans    &trans
-&kp LA(F4)          &kp LC(T)         &kp LC(W)                      &kp LS(LA(LC(TAB)))  &kp LA(LC(TAB))      &kp LC(PG_UP)  &kp LC(PAGE_DOWN)            &trans    &trans    &trans
-&kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &trans     &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)                                      &trans             &trans    &trans    &trans    &trans
+&trans              &trans            &trans  &trans              &trans               &trans         &trans  &trans    &kp LA(LC(TAB))  &kp LC(PG_UP)  &kp LC(PG_DN)  &trans
+&trans              &trans            &trans  &trans              &trans               &trans         &trans  &mkp MB5  &mkp MB4         &mkp MB3       &mkp MB2       &trans
+&trans              &trans            &trans  &trans              &trans               &trans         &trans  &trans    &mkp MB1         &trans         &trans         &trans
+&trans              &trans            &trans                      &kp LA(F4)           &kp LC(W)      &trans  &trans                     &trans         &trans         &trans
+&kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &trans  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)                         &trans    &trans           &trans         &trans         &trans
             >;
 
             sensor-bindings = <&scroll_up_down &scroll_up_down>;
