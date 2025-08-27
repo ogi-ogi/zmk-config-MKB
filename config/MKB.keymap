@@ -203,7 +203,7 @@
 &trans  &trans     &trans  &trans      &trans                                        &kp BACKSPACE    &kp ESC    &trans     &kp LG(N1)  &kp DELETE
             >;
 
-            sensor-bindings = <&scroll_up_down &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         mouse_layer {
