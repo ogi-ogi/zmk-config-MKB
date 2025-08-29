@@ -196,7 +196,7 @@
         num_layer {
             label = "Num";
             bindings = <
-&trans  &kp LC(W)  &trans  &kp LC(N4)  &trans         &trans             &trans      &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_MINUS
+&trans  &kp LC(W)  &trans  &kp LA(N4)  &trans         &trans             &trans      &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_MINUS
 &trans  &trans     &trans  &trans      &trans         &trans             &trans      &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS
 &trans  &trans     &trans  &trans      &trans         &trans             &trans      &kp LS(N5)       &kp KP_N1  &kp KP_N2  &kp KP_N3   &trans
 &trans  &trans     &trans              &kp LC(PG_UP)  &kp LC(PG_DN)      &kp KP_DOT  &kp KP_N0                   &trans     &trans      &trans
