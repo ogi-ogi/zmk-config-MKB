@@ -40,10 +40,10 @@ layers:
   - {t: Sft+6, h: LEFT ALT}
   - {t: Sft+3, h: LEFT WIN}
   - LEFT BRACKET
-  - {t: SPACE, h: Mouse}
+  - {t: SPACE, h: LEFT ALT}
   - {t: DELETE, h: Num}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: ENTER, h: Num}
+  - ENTER
   - '&dollar'
   - '&pipe'
   - '&backquote'
@@ -116,9 +116,9 @@ layers:
   - {t: ▽, type: trans}
   Num:
   - {t: ▽, type: trans}
-  - Ctl+W
   - {t: ▽, type: trans}
-  - Alt+4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -154,8 +154,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+PG UP
-  - {t: Ctl+PG DN, type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
   - KP DOT
   - KP 0
   - {t: ▽, type: trans}
@@ -237,9 +237,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+T
   - {type: held}
-  - {t: ▽, type: trans}
+  - Ctl+W
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -260,7 +260,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+F4
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -270,8 +270,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+PG UP
+  - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
