@@ -209,11 +209,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans              &trans            &trans  &trans              &trans               &trans      &trans  &trans    &trans    &trans    &trans    &trans
-&trans              &trans            &trans  &trans              &trans               &trans      &trans  &mkp MB5  &mkp MB4  &mkp MB3  &mkp MB2  &trans
-&trans              &trans            &trans  &trans              &trans               &trans      &trans  &trans    &mkp MB1  &trans    &trans    &trans
-&trans              &trans            &trans                      &trans               &trans      &trans  &trans              &trans    &trans    &trans
-&kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &trans  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)                      &trans    &trans    &trans    &trans    &trans
+&trans              &trans            &trans  &trans              &trans               &trans      &trans         &trans         &kt LC(T)  &trans    &kp LC(W)  &trans
+&trans              &trans            &trans  &trans              &trans               &trans      &trans         &mkp MB5       &mkp MB4   &mkp MB3  &mkp MB2   &trans
+&trans              &trans            &trans  &trans              &trans               &trans      &trans         &kp LA(F4)     &mkp MB1   &trans    &trans     &trans
+&trans              &trans            &trans                      &trans               &trans      &kp LC(PG_UP)  &kp LC(PG_DN)             &trans    &trans     &trans
+&kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &trans  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)                             &trans         &trans     &trans    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_up_down &scroll_up_down>;
